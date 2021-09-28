@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fixed-width{
+    max-width: 1280px;
+    margin: auto;
+}
+.fixed-width-2{
+    width: 80%;
+    margin: auto;
+}
+
+.fixed-width-3{
+    width: 70%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Header section */
+.header-seciton{
+    background-color: #22c3a3;
+}
+.header-seciton .logo{
+    float: left;
+    width: 30%;
+}
+.header-seciton .logo h2{
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.header-seciton .menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-seciton .menu ul{}
+.header-seciton .menu ul li{
+   display: inline-block;
+}
+.header-seciton .menu ul li a{
+    display: inline-block;
+    color: #d8e9e6;
+    padding: 20px 10px;
+}
+
+/* Banner Secion */
+.banner-section{
+    background-image: url(https://i.ibb.co/YyQNFH5/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding: 200px 0;
+    margin-bottom: 80px;
+    
+} 
+.banner-image{}
+
+.banner-image img{
+    max-width: 100%;
+}
+.banner-image h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.banner-image h4{
+    color: #cef2eb;
+    margin-bottom: 25px;
+    
+}
+.banner-image a{
+    display: inline-block;
+    border: 2px solid #cef2eb;
+    color: #fff;
+    padding: 10px 23px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+
+/* Service Section */
+.service-section{
+    margin-top: 50px;
+    text-align: center;
+}
+.service-section .content{}
+.service-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.service-item i{
+    color: #0dbf9b;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.service-item h3{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.service-item p{
+    color: #666666;
+    width: 70%;
+    margin: auto;
+    font-size: 13px;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+.border{
+    border-bottom: 2px solid #0dbf9b
+}
+
+/* About Section */
+.about-section{
+    margin-top: 60px;
+}
+.about-section p{
+    margin-bottom: 40px;
+}
+.content{}
+.content h3{
+    color: #585858;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.content p{
+    color: #7e7e7e;
+}
+
+.about-section .photo{
+    float: left;
+    width: 35%;
+}
+.photo img{
+    width: 600px;
+}
+.content-right{
+    float: right;
+    width: 62%;
+}
+.content-right h3{
+    color: #777777;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.content-right p{
+    font-family: 'Open Sans', sans-serif;
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+/* Contact Us Section */
+.contact-us{
+    background-color:#f6f6f6;
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+.contact-us p{
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.contact-us i{
+    color: #0dbf9b;
+    margin-bottom: 10px;
+}
+.contact-us p{
+    color: #7e7e7e;
+}
+
+.content-service{}
+.content-div{
+    float: left;
+    width: 33%;
+}
+.content-service .logo{}
+.content-service .information{}
+
+/* Footer Section */
+.footer-section{
+    background-color: #0dbf9b;
+    padding: 15px 0;
+}
+.footer-section ul{
+    text-align: center;
+}
+.footer-section ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer-section ul li a{
+    display: inline-block;
+    color: #fff;
+}
+.footer-bottom{
+    background-color: #222222;
+    padding: 10px;
+}
+.footer-bottom p{
+    text-align: center;
+    color: #7e7e7e;
+}
